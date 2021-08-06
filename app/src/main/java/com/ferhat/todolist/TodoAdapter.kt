@@ -24,7 +24,6 @@ class TodoAdapter(private val todos: MutableList<Todo>): RecyclerView.Adapter<To
         }else{
             tvTodoTitle.paintFlags = tvTodoTitle.paintFlags and STRIKE_THRU_TEXT_FLAG.inv()
         }
-
     }
 
     fun addTodo(todo:Todo){
